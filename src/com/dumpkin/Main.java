@@ -1,3 +1,5 @@
+//Avivi lesson homework 5
+
 //Створити клас Robot від якого слід наслідувати CoffeRobot, RobotDancer, RobotCoocker. В Robot є метод work() ,
 //в якому слід описати роботу яку виконує кожен з роботів.
 //Для Robot в методі work() слід написати код, щоб на консоль виводився наступний
@@ -18,9 +20,15 @@ public class Main {
     public static void main(String[] args) {
 
         //create cofferobot object
-        CoffeRobot robot= new CoffeRobot();
-        robot.work();
+        CoffeRobot coffeRobot = new CoffeRobot();
+        coffeRobot.work();
 
+        //create RobotDancer object
+        RobotDancer robotDancer = new RobotDancer();
+        robotDancer.work();
 
+        //create RobotCoocker object
+        RobotCoocker robotCoocker = new RobotCoocker();
+        robotCoocker.work();
     }
 }

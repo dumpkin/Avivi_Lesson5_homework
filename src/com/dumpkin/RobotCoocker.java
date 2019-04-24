@@ -1,8 +1,7 @@
 //Avivi lesson homework 5
-
 package com.dumpkin;
 
- class CoffeRobot extends Robot {
+ class RobotCoocker extends Robot {
 
     public void work(){
         System.out.println("     ( )\n" +
@@ -17,9 +16,9 @@ package com.dumpkin;
                 "|  \\ \\ @   @ / /\n" +
                 "|   '---------'\n" +
                 "|    _______|\n" +
-                "|  .'-+-+-+|      / ------------------------\\\n" +
-                "|  '.-+-+-+|  --- Я CoffeRobot – я варю каву|\n" +
-                "|    \"\"\"\"\"\" |     \\-------------------------/\n" +
+                "|  .'-+-+-+|      / ----------------------------\\\n" +
+                "|  '.-+-+-+|  --- Я RobotCoocker – я просто готую|\n" +
+                "|    \"\"\"\"\"\" |     \\-----------------------------/\n" +
                 "'-.__   __.-'\n" +
                 "     \"\"\"");
     }
