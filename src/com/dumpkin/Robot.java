@@ -3,6 +3,7 @@
 package com.dumpkin;
 
 public class Robot {
+
     protected void work(){
         System.out.println("     ( )\n" +
                 "      H\n" +
@@ -22,5 +23,9 @@ public class Robot {
                 "'-.__   __.-'\n" +
                 "     \"\"\"");
 
+    }
+
+    protected void robotSay(){
+        System.out.println("I`m ready!");
     }
 }

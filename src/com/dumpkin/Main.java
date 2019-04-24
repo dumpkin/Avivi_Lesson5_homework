@@ -22,13 +22,17 @@ public class Main {
         //create cofferobot object
         CoffeRobot coffeRobot = new CoffeRobot();
         coffeRobot.work();
+        coffeRobot.robotSay();
 
         //create RobotDancer object
         RobotDancer robotDancer = new RobotDancer();
         robotDancer.work();
+        robotDancer.robotSay();
 
         //create RobotCoocker object
         RobotCoocker robotCoocker = new RobotCoocker();
         robotCoocker.work();
+        robotCoocker.robotSay();
+
     }
 }
